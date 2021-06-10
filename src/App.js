@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 
 import Navigation from './Navigation'
-import Product from './Product'
+import { Product } from './Product'
 
 function App() {
   return (
