@@ -39,6 +39,7 @@
 .product-text {
   display: block
 }
+
 #product-selected {
   display: block;
   float: left;
@@ -124,6 +125,13 @@ img {
 }
 
 @media (max-width: 1259px) {
+  #product-selected {
+    display: block;
+    float: left;
+    width: 70%;
+    height: 70%
+  }
+
 .product-text {
   display: block;
   margin: auto;
@@ -142,10 +150,17 @@ img {
 }
 
 @media (max-width: 540px) {
+  #product-selected {
+    display: block;
+    float: left;
+    width: 70%;
+    height: 70%
+  }
+
   .product-text {
     display: block;
     margin: auto;
-    width: 100%
+    width: 50%
   }
   img {
     width: 100%;
