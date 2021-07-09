@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+A technical test for Moustache Republic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The task was to recreate a web page provided in a framework and language of your choice. 
 
-## Available Scripts
+"This a simple product details section of a clothing retail site. Your task is to implement it with  your weapon of choice, including but not limited to HTML, CSS and JavaScript. You will be assessed on the completions of the requirements and your general code quality and best coding practices.
 
-In the project directory, you can run:
+Requirements
 
-### `npm start`
+Implement a web page based on the design prototype, you do NOT have to be “pixel perfect”. But we would recommend trying to meet 90% of the design at the same same screen size.
+Responsive web design. The site needs to fit to the different size of the user’s screen. Only large desktop and mobile design are provided. You need to fill in the blank on what the page looks like in between.
+Add to Cart section (main body of the page)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+When page first loaded there is no size selected. (desktop screen 1, mobile screen 1)
+Selected size is shown next to the size label, tile is highlighted as shown in the prototype (desktop screen 4, mobile screen 3).
+Add to Cart button on hover colour changes, apply a 0.2 second transition to animate this (desktop screen 3)
+Mini Cart section (top right)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+On desktop, Mini Cart is shown when mouse hovering over “My Cart”. On mobile devices, Mini Cart is shown when the user taps “My Cart” (desktop screen 2, mobile screen 2)
+If you are not doing the optional task below, implement the Mini Cart content same as what is in the design prototype. On the other hand if you are implementing the add to cart JS, the user should start with an empty Mini Cart.
+Optional Task: JavaScript add to cart functionality."
